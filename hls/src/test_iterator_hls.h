@@ -31,8 +31,11 @@ public:
             {
                 for (sample.y = bbox.lower_left.y; sample.y <= bbox.upper_right.y; sample.y += increment) 
                 {
+                    // jitter sample
                     jitter = jitterSample.run(sample, config);
+                    // test sample
                     bool hit = sampleTest.run(triangle, jitter);
+                    // if hit, write out the sample (including RGB values)
                     if (hit) {
                         sample.R = triangle.R;
                         sample.G = triangle.G;
@@ -41,9 +44,6 @@ public:
                     }
                 }
             }
-                    // jitter sample
-                    // test sample
-                    // if hit, write out the sample (including RGB values)
         // END CODE HERE
         }
     }

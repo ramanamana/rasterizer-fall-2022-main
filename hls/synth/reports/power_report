@@ -8,13 +8,13 @@ Report : power
         -analysis_effort high
 Design : Rasterizer
 Version: M-2016.12-SP2
-Date   : Mon Nov 22 22:22:12 2021
+Date   : Wed Dec 14 21:24:12 2022
 ****************************************
 
 
 Library(s) Used:
 
-    NangateOpenCellLibrary (File: /afs/ir.stanford.edu/users/m/c/mcoduoza/EE271_Fall_2021_TA/rasterizer-fall-2021/lib/NangateOpenCellLibrary.db)
+    NangateOpenCellLibrary (File: /afs/ir.stanford.edu/users/r/a/ramana7/rasterizer-fall-2022-main/lib/NangateOpenCellLibrary.db)
 
 
 Operating Conditions: typical   Library: NangateOpenCellLibrary
@@ -34,12 +34,12 @@ Power-specific unit information :
     Leakage Power Units = 1nW
 
 
-  Cell Internal Power  =   1.3479 mW   (66%)
-  Net Switching Power  = 701.1074 uW   (34%)
+  Cell Internal Power  =   2.1476 mW   (74%)
+  Net Switching Power  = 751.8755 uW   (26%)
                          ---------
-Total Dynamic Power    =   2.0490 mW  (100%)
+Total Dynamic Power    =   2.8995 mW  (100%)
 
-Cell Leakage Power     = 672.1177 uW
+Cell Leakage Power     = 658.4907 uW
 
 Information: report_power power group summary does not include estimated clock tree power. (PWR-789)
 
@@ -51,8 +51,8 @@ memory             0.0000            0.0000            0.0000            0.0000 
 black_box          0.0000            0.0000            0.0000            0.0000  (   0.00%)
 clock_network      0.0000            0.0000            0.0000            0.0000  (   0.00%)
 register           0.0000            0.0000            0.0000            0.0000  (   0.00%)
-sequential     1.0394e+03           82.5467        2.4395e+05        1.3659e+03  (  50.20%)
-combinational    308.4561          618.5525        4.2817e+05        1.3552e+03  (  49.80%)
+sequential       989.8336           88.2741        2.4127e+05        1.3194e+03  (  37.08%)
+combinational  1.1578e+03          663.5878        4.1722e+05        2.2386e+03  (  62.92%)
 --------------------------------------------------------------------------------------------------
-Total          1.3479e+03 uW       701.0992 uW     6.7212e+05 nW     2.7211e+03 uW
+Total          2.1476e+03 uW       751.8619 uW     6.5849e+05 nW     3.5579e+03 uW
 1

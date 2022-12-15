@@ -4,14 +4,14 @@ Information: Updating design information... (UID-85)
 Report : design
 Design : Rasterizer
 Version: M-2016.12-SP2
-Date   : Mon Nov 22 22:22:05 2021
+Date   : Wed Dec 14 21:24:06 2022
 ****************************************
 
 Design allows ideal nets on clock nets.
 
 Library(s) Used:
 
-    NangateOpenCellLibrary (File: /afs/ir.stanford.edu/users/m/c/mcoduoza/EE271_Fall_2021_TA/rasterizer-fall-2021/lib/NangateOpenCellLibrary.db)
+    NangateOpenCellLibrary (File: /afs/ir.stanford.edu/users/r/a/ramana7/rasterizer-fall-2022-main/lib/NangateOpenCellLibrary.db)
 
 Local Link Library:
 
