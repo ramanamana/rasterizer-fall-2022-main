@@ -1,0 +1,47 @@
+
+# Messages from "go new"
+
+
+# Messages from "go analyze"
+
+Edison Design Group C++/C Front End - Version 5.0 (CIN-1)
+flow package option set /SCVerify/USE_MSIM false
+Front End called with arguments: -- /afs/ir.stanford.edu/users/r/a/ramana7/rasterizer-fall-2022-main/hls/src/rasterizer_top.cpp (CIN-69)
+false
+Pragma 'hls_design<top>' detected on class 'Rasterizer' (CIN-6)
+flow package require /NCSim
+# Warning: non-POD class type passed through ellipsis (CRD-1290)
+false
+flow package option set /SCVerify/USE_NCSIM true
+true
+flow package option set /SCVerify/USE_VCS false
+true
+/INPUTFILES/1
+solution file add src/bbox_testbench.cpp -exclude true
+solution options set Flows/NCSim/NC_ROOT /cad/cadence/INCISIVE15.20.022/
+8.2
+solution file add src/rasterizer_top.cpp
+/cad/cadence/INCISIVE15.20.022/
+project save
+Moving session transcript to file "/afs/ir.stanford.edu/users/r/a/ramana7/rasterizer-fall-2022-main/hls/catapult.log"
+solution design add Rasterizer -type top -unlocked (HC-1)
+solution design add Hash40to8 -type block -unlocked (HC-1)
+flow package require SCVerify
+false
+Source file analysis completed (CIN-68)
+flow package option set /SCVerify/USE_CCS_BLOCK true
+solution design add TestIterator -type block -unlocked (HC-1)
+10.4
+solution design add BoundingBoxGenerator -type block -unlocked (HC-1)
+options set Input/TargetPlatform x86_64
+solution design add JitterSample -type block -unlocked (HC-1)
+Saving project file '/afs/ir.stanford.edu/users/r/a/ramana7/rasterizer-fall-2022-main/hls/bbox_test_7.ccs'. (PRJ-5)
+solution design add SampleTest -type block -unlocked (HC-1)
+options set Output/OutputVHDL false
+x86_64
+go analyze
+# Info: Starting transformation 'analyze' on solution 'solution.v1' (SOL-8)
+solution file add ../gold/rasterizer.c -exclude true
+/INPUTFILES/2
+/INPUTFILES/3
+# Info: Completed transformation 'analyze' on solution 'solution.v1': elapsed time 2.87 seconds, memory usage 978384kB, peak memory usage 978384kB (SOL-9)

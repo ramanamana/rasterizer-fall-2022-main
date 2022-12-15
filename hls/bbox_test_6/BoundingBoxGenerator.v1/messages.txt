@@ -1,0 +1,152 @@
+
+# Messages from "go new"
+
+
+# Messages from "go analyze"
+
+solution design add JitterSample -type block -unlocked (HC-1)
+Saving project file '/afs/ir.stanford.edu/users/r/a/ramana7/rasterizer-fall-2022-main/hls/bbox_test_6.ccs'. (PRJ-5)
+solution design add SampleTest -type block -unlocked (HC-1)
+options set Output/OutputVHDL false
+x86_64
+go analyze
+# Info: Starting transformation 'analyze' on solution 'solution.v1' (SOL-8)
+solution file add ../gold/rasterizer.c -exclude true
+/INPUTFILES/2
+/INPUTFILES/3
+Edison Design Group C++/C Front End - Version 5.0 (CIN-1)
+flow package option set /SCVerify/USE_MSIM false
+Front End called with arguments: -- /afs/ir.stanford.edu/users/r/a/ramana7/rasterizer-fall-2022-main/hls/src/rasterizer_top.cpp (CIN-69)
+false
+Pragma 'hls_design<top>' detected on class 'Rasterizer' (CIN-6)
+flow package require /NCSim
+# Warning: non-POD class type passed through ellipsis (CRD-1290)
+false
+flow package option set /SCVerify/USE_NCSIM true
+true
+flow package option set /SCVerify/USE_VCS false
+true
+/INPUTFILES/1
+solution file add src/bbox_testbench.cpp -exclude true
+solution options set Flows/NCSim/NC_ROOT /cad/cadence/INCISIVE15.20.022/
+8.2
+solution file add src/rasterizer_top.cpp
+/cad/cadence/INCISIVE15.20.022/
+project save
+Moving session transcript to file "/afs/ir.stanford.edu/users/r/a/ramana7/rasterizer-fall-2022-main/hls/catapult.log"
+solution design add Rasterizer -type top -unlocked (HC-1)
+solution design add Hash40to8 -type block -unlocked (HC-1)
+flow package require SCVerify
+false
+Source file analysis completed (CIN-68)
+flow package option set /SCVerify/USE_CCS_BLOCK true
+solution design add TestIterator -type block -unlocked (HC-1)
+10.4
+solution design add BoundingBoxGenerator -type block -unlocked (HC-1)
+options set Input/TargetPlatform x86_64
+
+# Messages from "go compile"
+
+Inlining member function 'BoundingBoxGenerator::BoundingBoxGenerator' on object '' (CIN-64)
+Found top design routine 'BoundingBoxGenerator' specified by directive (CIN-52)
+}
+    {BoundingBoxGenerator}
+go libraries
+solution library add nangate-45nm_beh -- -rtlsyntool DesignCompiler -vendor Nangate -technology 045nm
+Inlining member function 'BoundingBoxGenerator::floor_ss' on object '' (CIN-64)
+Inlining routine 'operator-<4, false>' (CIN-14)
+Inlining routine 'operator-<4, false>' (CIN-14)
+Inlining routine 'operator-<4, false>' (CIN-14)
+Inlining member function 'BoundingBoxGenerator::run' on object '' (CIN-64)
+Synthesizing method 'BoundingBoxGenerator::run' (CIN-13)
+Inlining routine 'operator-<4, false>' (CIN-14)
+Inlining member function 'BoundingBoxGenerator::floor_ss' on object '' (CIN-64)
+Inlining routine 'operator-<4, false>' (CIN-14)
+Inlining routine 'operator-<4, false>' (CIN-14)
+Inlining member function 'BoundingBoxGenerator::min' on object '' (CIN-64)
+Inlining member function 'BoundingBoxGenerator::min' on object '' (CIN-64)
+Inlining routine 'operator-<4, false>' (CIN-14)
+Inlining member function 'BoundingBoxGenerator::floor_ss' on object '' (CIN-64)
+Inlining member function 'BoundingBoxGenerator::floor_ss' on object '' (CIN-64)
+Inlining routine 'operator-<4, false>' (CIN-14)
+Optimizing block '/BoundingBoxGenerator' ... (CIN-4)
+# Warning: ignoring 'printf' statement and all side effects of parameters for synthesis, additional encounters also ignored (CIN-263)
+INOUT port 'screen_in' is only used as an input. (OPT-10)
+INOUT port 'triangle_in' is only used as an input. (OPT-10)
+Inlining member function 'BoundingBoxGenerator::max' on object '' (CIN-64)
+Inlining member function 'BoundingBoxGenerator::max' on object '' (CIN-64)
+Inlining routine 'operator>=<24, true>' (CIN-14)
+Inlining routine 'operator>=<24, true>' (CIN-14)
+# Info: Optimizing partition '/BoundingBoxGenerator/constructor': (Total ops = 0, Real ops = 0, Vars = 0) (SOL-10)
+# Info: Optimizing partition '/BoundingBoxGenerator': (Total ops = 203, Real ops = 53, Vars = 26) (SOL-10)
+# Info: Partition '/BoundingBoxGenerator/constructor' is found empty and is optimized away. (OPT-12)
+# Info: Optimizing partition '/BoundingBoxGenerator': (Total ops = 203, Real ops = 53, Vars = 6) (SOL-10)
+INOUT port 'bbox_out' is only used as an output. (OPT-11)
+INOUT port 'config_in' is only used as an input. (OPT-10)
+INOUT port 'config_out' is only used as an output. (OPT-11)
+INOUT port 'triangle_out' is only used as an output. (OPT-11)
+# Info: Splitting object 'pref#1' into 2 segments (OPT-19)
+# Info: Splitting object 'pref' into 2 segments (OPT-19)
+# Info: Splitting object 'pref#3' into 2 segments (OPT-19)
+# Info: Splitting object 'pref#2' into 2 segments (OPT-19)
+# Info: Optimizing partition '/BoundingBoxGenerator/run': (Total ops = 203, Real ops = 53, Vars = 89) (SOL-10)
+# Info: Optimizing partition '/BoundingBoxGenerator': (Total ops = 203, Real ops = 53, Vars = 95) (SOL-10)
+# Info: Optimizing partition '/BoundingBoxGenerator': (Total ops = 189, Real ops = 53, Vars = 70) (SOL-10)
+# Info: Optimizing partition '/BoundingBoxGenerator/run': (Total ops = 189, Real ops = 53, Vars = 64) (SOL-10)
+# Info: Splitting object 'operator-<4,false>:return#1' into 2 segments (OPT-19)
+# Info: Splitting object 'operator-<4,false>:return' into 2 segments (OPT-19)
+# Info: Splitting object 'operator-<4,false>:return#3' into 2 segments (OPT-19)
+# Info: Splitting object 'operator-<4,false>:return#2' into 2 segments (OPT-19)
+# Info: Splitting object 'pref#5' into 2 segments (OPT-19)
+# Info: Splitting object 'pref#4' into 2 segments (OPT-19)
+# Info: Splitting object 'pref#7' into 2 segments (OPT-19)
+# Info: Splitting object 'pref#6' into 2 segments (OPT-19)
+# Info: Splitting object 'triangle_out.cwt' into 6 segments (OPT-19)
+# Info: Splitting object 'bbox_out.cwt' into 4 segments (OPT-19)
+# Info: Optimizing partition '/BoundingBoxGenerator/run': (Total ops = 127, Real ops = 49, Vars = 19) (SOL-10)
+# Info: Optimizing partition '/BoundingBoxGenerator/run': (Total ops = 191, Real ops = 53, Vars = 90) (SOL-10)
+# Info: Splitting object 'operator-<4,false>:return#5' into 2 segments (OPT-19)
+# Info: Splitting object 'operator-<4,false>:return#4' into 2 segments (OPT-19)
+# Info: Splitting object 'operator-<4,false>:return#7' into 2 segments (OPT-19)
+# Info: Splitting object 'operator-<4,false>:return#6' into 2 segments (OPT-19)
+# Info: Optimizing partition '/BoundingBoxGenerator/run': (Total ops = 98, Real ops = 32, Vars = 22) (SOL-10)
+# Info: Optimizing partition '/BoundingBoxGenerator/run': (Total ops = 107, Real ops = 34, Vars = 22) (SOL-10)
+# Info: Splitting object 'for:i' into 3 segments (OPT-19)
+# Info: Optimizing partition '/BoundingBoxGenerator': (Total ops = 98, Real ops = 32, Vars = 28) (SOL-10)
+# Info: Optimizing partition '/BoundingBoxGenerator/run': (Total ops = 92, Real ops = 35, Vars = 22) (SOL-10)
+# Info: Optimizing partition '/BoundingBoxGenerator': (Total ops = 127, Real ops = 49, Vars = 25) (SOL-10)
+Loop '/BoundingBoxGenerator/run/for' iterated at most 2 times. (LOOP-2)
+# Info: Optimizing partition '/BoundingBoxGenerator': (Total ops = 92, Real ops = 35, Vars = 28) (SOL-10)
+Design 'BoundingBoxGenerator' was read (SOL-1)
+# Info: Optimizing partition '/BoundingBoxGenerator': (Total ops = 92, Real ops = 32, Vars = 29) (SOL-10)
+Makefile for Original Design + Testbench written to file './scverify/Verify_orig_cxx_osci.mk'
+# Info: Splitting object 'BoundingBoxGenerator::max:return#1' into 2 segments (OPT-19)
+# Info: Splitting object 'BoundingBoxGenerator::max:return' into 2 segments (OPT-19)
+# Info: Optimizing partition '/BoundingBoxGenerator/run': (Total ops = 92, Real ops = 32, Vars = 23) (SOL-10)
+# Info: Optimizing partition '/BoundingBoxGenerator/run': (Total ops = 92, Real ops = 32, Vars = 26) (SOL-10)
+# Info: CDesignChecker Shell script written to '/afs/ir.stanford.edu/users/r/a/ramana7/rasterizer-fall-2022-main/hls/bbox_test_6/BoundingBoxGenerator.v1/CDesignChecker/design_checker.sh'
+# Warning: Toplevel found in header $PROJECT_HOME/src/bounding_box_hls.h, using $PROJECT_HOME/src/rasterizer_top.cpp for header dependencies.
+}
+    {BoundingBoxGenerator}
+/DESIGN_HIERARCHY {
+solution design add BoundingBoxGenerator -type top -unlocked (HC-1)
+directive set -DESIGN_HIERARCHY {
+# Info: Completed transformation 'analyze' on solution 'solution.v1': elapsed time 2.45 seconds, memory usage 978384kB, peak memory usage 978384kB (SOL-9)
+Generating synthesis internal form... (CIN-3)
+# Info: Starting transformation 'compile' on solution 'solution.v1' (SOL-8)
+
+# Messages from "go libraries"
+
+Reading component library '$MGC_HOME/pkgs/cds_assert/assert_mods.lib' [assert_mods]... (LIB-49)
+Reading component library '$MGC_HOME/pkgs/cds_assert/assert_ops.lib' [ASSERT_OPS]... (LIB-49)
+# Warning: No Encrypted Liberty technology libraries have been specified (LIB-192)
+Reading component library '$MGC_HOME/pkgs/siflibs/nangate/nangate-45nm_beh.lib' [nangate-45nm_beh]... (LIB-49)
+Reading component library '$MGC_HOME/pkgs/siflibs/stdops.lib' [STDOPS]... (LIB-49)
+Reading component library '$MGC_HOME/pkgs/siflibs/mgc_busdefs.lib' [mgc_busdefs]... (LIB-49)
+Reading component library '$MGC_HOME/pkgs/siflibs/mgc_ioport.lib' [mgc_ioport]... (LIB-49)
+# Info: Starting transformation 'libraries' on solution 'BoundingBoxGenerator.v1' (SOL-8)
+Reading component library '$MGC_HOME/pkgs/siflibs/ccs_ioport.lib' [ccs_ioport]... (LIB-49)
+# Info: Completed transformation 'compile' on solution 'BoundingBoxGenerator.v1': elapsed time 2.14 seconds, memory usage 978384kB, peak memory usage 978384kB (SOL-9)
+# Warning: No Synopsys DB technology libraries have been specified (LIB-192)
+# Warning: No Process Technology File (PTF) technology libraries have been specified (LIB-192)
+# Info: Completed transformation 'libraries' on solution 'BoundingBoxGenerator.v1': elapsed time 0.57 seconds, memory usage 978384kB, peak memory usage 978384kB (SOL-9)

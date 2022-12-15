@@ -1,0 +1,90 @@
+*** Message Type: info ***
+When: Wed Dec 14 17:46:22 PST 2022
+SimVision started.
+Version: TOOL:  simvision(64)   15.20-s022
+User: ramana7
+Host: caddy08.stanford.edu
+Platform: Linux/x86_64/3.10.0-1160.76.1.el7.x86_64
+Started: Wed Dec 14 17:46:22 PST 2022
+Command: /cad/cadence/INCISIVE15.20.022/tools.lnx86/simvision/bin/64bit/simvision.exe -connect dc:caddy08.stanford.edu:48669 -64BIT
+Work Directory: /afs/ir.stanford.edu/users/r/a/ramana7/rasterizer-fall-2022-main/hls
+ 
+*** Message Type: info ***
+When: Wed Dec 14 17:46:24 PST 2022
+Create browser window: "Design Browser 1"
+ 
+*** Message Type: info ***
+When: Wed Dec 14 17:46:34 PST 2022
+Create console window: "Console"
+ 
+*** Message Type: info ***
+When: Wed Dec 14 17:46:38 PST 2022
+Connect to Simulator
+      Design: scverify_top
+   Languages: verilog systemc
+   Simulator: NC-Sim
+     Version: TOOL:       ncsim(64)       15.20-s022
+        User: ramana7
+        Host: caddy08.stanford.edu
+Time Started: Wed Dec 14 17:46:19 PST 2022
+  Process ID: 5587
+   Directory: /afs/ir.stanford.edu/users/r/a/ramana7/rasterizer-fall-2022-main/hls
+     Command: ncsim -gui -log ./build/Rasterizer.v1/scverify/concat_sim_rtl_v_ncsim/sim.log -key ./build/Rasterizer.v1/scverify/concat_sim_rtl_v_ncsim/ncsim.key +tb_rc_dir+./build/Rasterizer.v1/scverify/concat_sim_rtl_v_ncsim +tb_run_dir+. +tb_trans_record -input ./build/Rasterizer.v1/scverify/concat_sim_rtl_v_ncsim/scverify_ncsim_gui.tcl -cdslib ./build/Rasterizer.v1/scverify/concat_sim_rtl_v_ncsim/cds.lib -hdlvar ./build/Rasterizer.v1/scverify/concat_sim_rtl_v_ncsim/hdl.var scverify_top
+
+ 
+*** Message Type: info ***
+When: Wed Dec 14 17:46:38 PST 2022
+Create utility window: "Properties"
+ 
+*** Message Type: info ***
+When: Wed Dec 14 17:46:46 PST 2022
+Create waveform window: "Waveform 1"
+ 
+*** Message Type: info ***
+When: Wed Dec 14 17:48:33 PST 2022
+Delete waveform window: "Waveform 1"
+ 
+*** Message Type: info ***
+When: Wed Dec 14 17:49:32 PST 2022
+Exit NC-Sim: abnormal
+      Design: scverify_top
+   Languages: verilog systemc
+   Simulator: NC-Sim
+     Version: TOOL:       ncsim(64)       15.20-s022
+        User: ramana7
+        Host: caddy08.stanford.edu
+Time Started: Wed Dec 14 17:46:19 PST 2022
+  Process ID: 5587
+   Directory: /afs/ir.stanford.edu/users/r/a/ramana7/rasterizer-fall-2022-main/hls
+     Command: ncsim -gui -log ./build/Rasterizer.v1/scverify/concat_sim_rtl_v_ncsim/sim.log -key ./build/Rasterizer.v1/scverify/concat_sim_rtl_v_ncsim/ncsim.key +tb_rc_dir+./build/Rasterizer.v1/scverify/concat_sim_rtl_v_ncsim +tb_run_dir+. +tb_trans_record -input ./build/Rasterizer.v1/scverify/concat_sim_rtl_v_ncsim/scverify_ncsim_gui.tcl -cdslib ./build/Rasterizer.v1/scverify/concat_sim_rtl_v_ncsim/cds.lib -hdlvar ./build/Rasterizer.v1/scverify/concat_sim_rtl_v_ncsim/hdl.var scverify_top
+
+ 
+*** Message Type: error ***
+When: Wed Dec 14 17:49:32 PST 2022
+NC-Sim Crashed:
+      Design: scverify_top
+   Languages: verilog systemc
+   Simulator: NC-Sim
+     Version: TOOL:       ncsim(64)       15.20-s022
+        User: ramana7
+        Host: caddy08.stanford.edu
+Time Started: Wed Dec 14 17:46:19 PST 2022
+  Process ID: 5587
+   Directory: /afs/ir.stanford.edu/users/r/a/ramana7/rasterizer-fall-2022-main/hls
+     Command: ncsim -gui -log ./build/Rasterizer.v1/scverify/concat_sim_rtl_v_ncsim/sim.log -key ./build/Rasterizer.v1/scverify/concat_sim_rtl_v_ncsim/ncsim.key +tb_rc_dir+./build/Rasterizer.v1/scverify/concat_sim_rtl_v_ncsim +tb_run_dir+. +tb_trans_record -input ./build/Rasterizer.v1/scverify/concat_sim_rtl_v_ncsim/scverify_ncsim_gui.tcl -cdslib ./build/Rasterizer.v1/scverify/concat_sim_rtl_v_ncsim/cds.lib -hdlvar ./build/Rasterizer.v1/scverify/concat_sim_rtl_v_ncsim/hdl.var scverify_top
+      Design: scverify_top
+   Languages: verilog systemc
+   Simulator: NC-Sim
+     Version: TOOL:    ncsim(64)       15.20-s022
+        User: ramana7
+        Host: caddy08.stanford.edu
+Time Started: Wed Dec 14 17:46:19 PST 2022
+  Process ID: 5587
+   Directory: /afs/ir.stanford.edu/users/r/a/ramana7/rasterizer-fall-2022-main/hls
+     Command: ncsim -gui -log ./build/Rasterizer.v1/scverify/concat_sim_rtl_v_ncsim/sim.log -key ./build/Rasterizer.v1/scverify/concat_sim_rtl_v_ncsim/ncsim.key +tb_rc_dir+./build/Rasterizer.v1/scverify/concat_sim_rtl_v_ncsim +tb_run_dir+. +tb_trans_record -input ./build/Rasterizer.v1/scverify/concat_sim_rtl_v_ncsim/scverify_ncsim_gui.tcl -cdslib ./build/Rasterizer.v1/scverify/concat_sim_rtl_v_ncsim/cds.lib -hdlvar ./build/Rasterizer.v1/scverify/concat_sim_rtl_v_ncsim/hdl.var scverify_top
+
+ 
+*** Message Type: info ***
+When: Wed Dec 14 17:49:32 PST 2022
+SimVision Exit.
+ 

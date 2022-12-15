@@ -1,0 +1,40 @@
+//  Catapult Ultra Synthesis 10.4b/841621 (Production Release) Thu Oct 24 17:20:07 PDT 2019
+//  
+//  Copyright (c) Mentor Graphics Corporation, 1996-2019, All Rights Reserved.
+//                        UNPUBLISHED, LICENSED SOFTWARE.
+//             CONFIDENTIAL AND PROPRIETARY INFORMATION WHICH IS THE
+//                 PROPERTY OF MENTOR GRAPHICS OR ITS LICENSORS
+//  
+//  Running on Linux ramana7@caddy08 3.10.0-1160.76.1.el7.x86_64 x86_64 aol
+//  
+//  Package information: SIFLIBS v23.4_2.0, HLS_PKGS v23.4_2.0, 
+//                       SIF_TOOLKITS v23.4_2.0, SIF_XILINX v23.4_2.0, 
+//                       SIF_ALTERA v23.4_2.0, CCS_LIBS v23.4_2.0, 
+//                       CDS_PPRO v10.3a_3, CDS_DesigChecker v10.4b, 
+//                       CDS_OASYS v19.1_2.4, CDS_PSR v19.1_1.16, 
+//                       DesignPad v2.78_1.0
+//  
+//  Start time Wed Dec 14 17:46:01 2022
+# -------------------------------------------------
+# Logging session transcript to file "/tmp/log52914c2c809b.0"
+dofile ./scripts/rtl_test.tcl
+# > project load build
+# Moving session transcript to file "/afs/ir.stanford.edu/users/r/a/ramana7/rasterizer-fall-2022-main/hls/catapult.log"
+# Warning: No Encrypted Liberty technology libraries have been specified (LIB-192)
+# Warning: No Process Technology File (PTF) technology libraries have been specified (LIB-192)
+# Warning: No Synopsys DB technology libraries have been specified (LIB-192)
+# Reading solution library '/afs/ir.stanford.edu/users/r/a/ramana7/rasterizer-fall-2022-main/hls/build/td_ccore_solutions/SampleTest_6e4f5b336c4af2681ab126a3992b8102b80f_0/solIndex.xml' ... (LIB-129)
+# Reading solution library '/afs/ir.stanford.edu/users/r/a/ramana7/rasterizer-fall-2022-main/hls/build/td_ccore_solutions/Hash40to8_f681a366444cadb65f69de7d7f9582005b88_0/solIndex.xml' ... (LIB-129)
+# Reading solution library '/afs/ir.stanford.edu/users/r/a/ramana7/rasterizer-fall-2022-main/hls/build/td_ccore_solutions/Hash40to8_f681a366444cadb65f69de7d7f9582005b88_0/solIndex.xml' ... (LIB-129)
+# Reading solution library '/afs/ir.stanford.edu/users/r/a/ramana7/rasterizer-fall-2022-main/hls/build/td_ccore_solutions/JitterSample_9f29a41aedde3d5448c1cd80aecb97caa616_0/solIndex.xml' ... (LIB-129)
+# > flow run /SCVerify/launch_make ./scverify/Verify_concat_sim_rtl_v_ncsim.mk {} SIMTOOL=ncsim simgui
+# Making './scverify/Verify_concat_sim_rtl_v_ncsim.mk SIMTOOL=ncsim simgui'
+# Make utility invoked from '/afs/ir.stanford.edu/users/r/a/ramana7/rasterizer-fall-2022-main/hls/build/Rasterizer.v1'
+#     /cad/mentor/2019.11/Catapult_Synthesis_10.4b-841621/Mgc_home/bin/make -f ./scverify/Verify_concat_sim_rtl_v_ncsim.mk SIMTOOL=ncsim build < "/dev/null" (BASIC-15)
+# make[1]: Entering directory `/afs/ir.stanford.edu/users/r/a/ramana7/rasterizer-fall-2022-main/hls/build/Rasterizer.v1'
+# make[1]: Nothing to be done for `build'.
+# make[1]: Leaving directory `/afs/ir.stanford.edu/users/r/a/ramana7/rasterizer-fall-2022-main/hls/build/Rasterizer.v1'
+#     /cad/mentor/2019.11/Catapult_Synthesis_10.4b-841621/Mgc_home/bin/make -f ./scverify/Verify_concat_sim_rtl_v_ncsim.mk SIMTOOL=ncsim simgui < "/dev/null" (BASIC-15)
+# 5574
+# > end dofile ./scripts/rtl_test.tcl
+// Finish time Wed Dec 14 17:46:20 2022, time elapsed 0:19, peak memory 889.45MB, exit status 0

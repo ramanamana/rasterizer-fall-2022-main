@@ -1,0 +1,11 @@
+a=imread("test-vectors/vec_271_00_sv_ref.ppm");
+b=imread("verif_out.ppm");
+figure
+imshow(a)
+figure
+imshow(b)
+hold;
+c=abs(a-b);
+find(c)
+figure
+imshow(c*255)

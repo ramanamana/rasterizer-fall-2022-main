@@ -1,0 +1,2 @@
+a=imread("test-vectors/vec_271_01_sv_s");
+imshow(a);

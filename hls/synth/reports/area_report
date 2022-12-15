@@ -1,0 +1,30 @@
+ 
+****************************************
+Report : area
+Design : Rasterizer
+Version: M-2016.12-SP2
+Date   : Mon Nov 22 22:22:06 2021
+****************************************
+
+Library(s) Used:
+
+    NangateOpenCellLibrary (File: /afs/ir.stanford.edu/users/m/c/mcoduoza/EE271_Fall_2021_TA/rasterizer-fall-2021/lib/NangateOpenCellLibrary.db)
+
+Number of ports:                         1525
+Number of nets:                         19666
+Number of cells:                        17800
+Number of combinational cells:          14299
+Number of sequential cells:              3470
+Number of macros/black boxes:               0
+Number of buf/inv:                       1343
+Number of references:                      48
+
+Combinational area:              20604.094149
+Buf/Inv area:                      802.787999
+Noncombinational area:           14610.315566
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (Wire load has zero net area)
+
+Total cell area:                 35214.409715
+Total area:                 undefined
+1

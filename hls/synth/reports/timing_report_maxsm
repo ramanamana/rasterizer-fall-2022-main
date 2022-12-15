@@ -1,0 +1,38 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : Rasterizer
+Version: M-2016.12-SP2
+Date   : Mon Nov 22 22:22:12 2021
+****************************************
+
+Operating Conditions: typical   Library: NangateOpenCellLibrary
+Wire Load Model Mode: top
+
+  Startpoint: clk_r_REG11_S12
+              (rising edge-triggered flip-flop)
+  Endpoint: sample_out_rsc_vld
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  Rasterizer         1K_hvratio_1_4        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clk_r_REG11_S12/CK (DFF_X1)            0.0000     0.0000 r
+  clk_r_REG11_S12/Q (DFF_X1)             0.1012     0.1012 f
+  U2147/ZN (OAI21_X1)                    0.0701     0.1713 r
+  U2148/ZN (NOR2_X1)                     0.0279     0.1992 f
+  sample_out_rsc_vld (out)               0.0014     0.2006 f
+  data arrival time                                 0.2006
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+1
